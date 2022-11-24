@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +32,10 @@ html {
 
 
 body {
-    background-color: var(--color-bg-1);
+    background: var(--color-bg-1);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    line-height: 1.7;
+    background-image: url(../src/assets/lines.png);
 }
 
